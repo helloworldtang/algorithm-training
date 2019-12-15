@@ -30,14 +30,5 @@ public class OneWeekAlgorithmSolutionTest {
         assertThat(newNumLength).isEqualTo(5);
     }
 
-    @Test
-    public void rotateArray_Case_1() {
-        OneWeekAlgorithmSolution algorithmSolution = new OneWeekAlgorithmSolution();
-        int[] nums = {1, 2, 3, 4, 5, 6, 7};
-        int k = 3;
-        algorithmSolution.rotateArray(nums, k);
-        System.out.println(JSON.toJSONString(nums));
-    }
-
 
 }
